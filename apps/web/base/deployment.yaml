@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  labels:
+    app: web
+spec:
+  replicas: 2
+  # Após 2 minutos sem progresso o rollout é marcado como falho (Degraded no Argo CD)
+  progressDeadlineSeconds: 120
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: web
+          image: nginx:1.27-alpine
+          ports:
+            - containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            periodSeconds: 5
+          resources:
+            requests:
+              cpu: 50m
+              memory: 32Mi
+            limits:
+              cpu: 200m
+              memory: 64Mi
+          volumeMounts:
+            - name: pagina
+              mountPath: /usr/share/nginx/html
+      volumes:
+        - name: pagina
+          configMap:
+            name: web-pagina

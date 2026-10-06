@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# Recursos que formam a aplicação web
+resources:
+  - deployment.yaml
+  - service.yaml
+
+# Gera um ConfigMap a partir do arquivo index.html.
+# O nome recebe um sufixo (hash): quando o conteúdo muda,
+# o Deployment é atualizado e os Pods são recriados.
+configMapGenerator:
+  - name: web-pagina
+    files:
+      - index.html
