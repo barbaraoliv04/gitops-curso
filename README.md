@@ -9,10 +9,10 @@ local (Kubernetes do Docker Desktop) vai ler o seu fork e manter o cluster igual
 
 | Aula | Data | Tema | Atividade |
 |------|------|------|-----------|
-| 1 | 07/10 (qua), 18h–20h | Fundamentos: Git, Kubernetes e o deploy manual | [atividades/aula-1.md](atividades/aula-1.md) |
-| 2 | 08/10 (qui), 18h–20h | Argo CD e a primeira Application | [atividades/aula-2.md](atividades/aula-2.md) |
-| 3 | 14/10 (qua), 18h–20h | Sync automático, drift e ambientes com Kustomize | [atividades/aula-3.md](atividades/aula-3.md) |
-| 4 | 15/10 (qui), 18h–20h | App of Apps, boas práticas e desafio final | [atividades/aula-4.md](atividades/aula-4.md) e [atividades/desafio-final.md](atividades/desafio-final.md) |
+| 1 | 07/10 (qua), 17h–19h | Fundamentos: Git, Kubernetes e o deploy manual | [atividades/aula-1.md](atividades/aula-1.md) |
+| 2 | 08/10 (qui), 17h–19h | Argo CD e a primeira Application | [atividades/aula-2.md](atividades/aula-2.md) |
+| 3 | 14/10 (qua), 17h–19h | Sync automático, drift e ambientes com Kustomize | [atividades/aula-3.md](atividades/aula-3.md) |
+| 4 | 15/10 (qui), 17h–19h | App of Apps, boas práticas e desafio final | [atividades/aula-4.md](atividades/aula-4.md) e [atividades/desafio-final.md](atividades/desafio-final.md) |
 
 Antes da primeira aula, siga o [PRE-REQUISITOS.md](PRE-REQUISITOS.md).
 
