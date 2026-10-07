@@ -34,4 +34,4 @@ kubectl get applications -n argocd -w     # Ctrl+C para sair
 1. Depois deste passo, qual é o jeito certo de criar um ambiente novo?
 2. O que aconteceria se você apagasse `argocd/apps/web-prod.yaml` do Git e fizesse push? Por quê?
 
-Agora siga para o [desafio final](desafio-final.md).
+Agora aguarde o instrutor publicar o desafio final. Ele chega no seu fork pelo **Sync fork → Update branch** seguido de `git pull`, e o roteiro fica em `atividades/desafio-final.md`.
