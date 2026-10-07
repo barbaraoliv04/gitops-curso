@@ -67,8 +67,9 @@ No modo Kubeadm, o cluster usa as mesmas imagens do Docker:
 
 ```bash
 docker pull nginx:1.27-alpine
-docker pull nginx:1.28-alpine
 docker pull quay.io/argoproj/argocd:v3.5.3
+docker pull ghcr.io/dexidp/dex:v2.45.1
+docker pull public.ecr.aws/docker/library/redis:8.2.3-alpine
 ```
 
 ## Alternativa: Minikube

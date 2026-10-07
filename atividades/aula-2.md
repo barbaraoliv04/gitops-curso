@@ -132,7 +132,7 @@ Atualize a interface. O que o Argo CD mostra? Clique em **SYNC** e veja o result
 
 - Application **web** em **Synced** e **Healthy**, com 3 Pods.
 - Em **HISTORY AND ROLLBACK**, pelo menos dois syncs, cada um com o SHA do commit.
-- Página mostrando **Versão: v3**.
+- Página mostrando **Versao: v3**.
 
 ## Perguntas de checagem
 

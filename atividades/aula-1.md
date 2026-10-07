@@ -17,9 +17,7 @@ cd gitops-curso
 
 ## Passo 2 — Ambiente
 
-Confira se o Kubernetes do Docker Desktop está ligado (indicador verde) e rode:
-
-Confira cada item e anote o resultado:
+Confira se o Kubernetes do Docker Desktop está ligado (indicador verde), rode os comandos abaixo e anote o resultado:
 
 ```bash
 git --version
@@ -50,7 +48,7 @@ Abra a aplicação (deixe o comando rodando e use outro terminal para o resto):
 kubectl port-forward svc/web -n curso 8081:80
 ```
 
-Acesse http://localhost:8081 — deve aparecer **Ambiente: BASE · Versão: v1**.
+Acesse http://localhost:8081 — deve aparecer **Ambiente: BASE** e **Versao: v1**.
 
 ## Passo 4 — Alguém mexeu no cluster
 
@@ -87,7 +85,7 @@ kubectl apply -k apps/web/base -n curso
 
 ## Evidência de conclusão
 
-- Página mostrando **Versão: v2**.
+- Página mostrando **Versao: v2**.
 - Commit "Página versão v2" visível no seu fork no GitHub.
 - Respostas às perguntas abaixo anotadas.
 

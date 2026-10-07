@@ -102,7 +102,7 @@ git push
 
 ## Evidência de conclusão
 
-- **web-dev** e **web-prod** Synced e Healthy, as duas mostrando **Versão: v2**.
+- **web-dev** e **web-prod** Synced e Healthy, as duas mostrando **Versao: v2**.
 - `git log --oneline` mostrando o commit ruim e o commit de revert.
 - ConfigMap `aviso` criado e depois removido pelo Argo CD.
 
